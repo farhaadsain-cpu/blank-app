@@ -94,3 +94,6 @@ if uploaded:
 else:
     st.info("Upload a file to analyze meeting minutes.")
 
+git checkout -b feature/update-streamlit-dashboard
+git add app.py  # plus any other modified files
+git commit -m "Update Streamlit dashboard with EDF features and risk alerts"
